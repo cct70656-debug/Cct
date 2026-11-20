@@ -1,0 +1,6 @@
+{
+  "name": "SmartFin AI",
+  "description": "SmartFin AI - Premium AI-Powered Personal Finance & Budget Management SaaS Platform",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

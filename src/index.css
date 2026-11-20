@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #FFFFFF;
+    color: #25213B;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    antialiased: true;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F7F5FF;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #DDD5F8;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7548F5;
+}
+
+/* Luxury Light Fintech Cards & Panels */
+.fintech-card {
+  background: #FFFFFF;
+  border: 1px solid #EEEAF5;
+  box-shadow: 0 4px 20px -4px rgba(117, 72, 245, 0.06);
+  transition: all 0.2s ease-in-out;
+}
+
+.fintech-card:hover {
+  border-color: #A78BFA;
+  box-shadow: 0 10px 30px -5px rgba(117, 72, 245, 0.12);
+  transform: translateY(-1px);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #7548F5 0%, #A78BFA 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-btn {
+  background: linear-gradient(135deg, #7548F5 0%, #8E63F8 100%);
+  color: #FFFFFF;
+  box-shadow: 0 8px 20px -4px rgba(117, 72, 245, 0.35);
+  transition: all 0.2s ease;
+}
+
+.gradient-btn:hover {
+  opacity: 0.95;
+  transform: translateY(-1px);
+  box-shadow: 0 12px 25px -4px rgba(117, 72, 245, 0.5);
+}
